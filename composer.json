@@ -1,8 +1,8 @@
 {
-	"name": "nterms/yii2-fonrawesome-widget",
+	"name": "nterms/yii2-fontawesome-widget",
 	"description": "FontAwesome icon selector input widget for Yii2",
 	"keywords": ["yii2", "extension", "widget", "fontawesome"],
-	"homepage": "https://github.com/nterms/yii2-fonrawesome-widget",
+	"homepage": "https://github.com/nterms/yii2-fontawesome-widget",
 	"type": "yii2-extension",
 	"license": "MIT",
 	"authors": [
