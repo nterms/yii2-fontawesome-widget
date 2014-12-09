@@ -69,14 +69,14 @@ class FontAwesome extends InputWidget
 		$view->registerJs($js, $view::POS_READY);
 		
 		if($this->hasModel()) {
-			$input = Html::activeHidenInput($this->model, $this->attribute, $this->options);
+			$input = Html::activeHiddenInput($this->model, $this->attribute, $this->options);
 		} else {
-			$input = Html::hidenInput($this->name, $this->value, $this->options);
+			$input = Html::hiddenInput($this->name, $this->value, $this->options);
 		}
 		
 		$icons = '';
 		
-		if(is_array($this->icons[0])) {
+		if(is_array(current($this->icons))) {
 			$groupTag = (empty($this->groupOptions['tag']) ? 'div' : $this->groupOptions['tag']);
 			
 			foreach($this->icons as $key => $group) {
